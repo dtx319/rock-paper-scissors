@@ -1,1 +1,1 @@
-Welcome! This is a Python-based 
+Welcome! This is a Python-based game utilizing a randomizer. It's the classic Rock-Paper-Scissors. Up for a challenge?
