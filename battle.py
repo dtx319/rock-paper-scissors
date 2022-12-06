@@ -32,7 +32,7 @@ def battle ():
                 print("Computer's choice: Rock")
                 print("Nice job, you win!")
                 player += 1
-        else: 
+        elif choose.lower() == "rock": 
             print("Your choice: Scissors")
             if choice == 1:
                 print("Computer's choice: Scissors")
@@ -45,6 +45,8 @@ def battle ():
                 print("Computer's choice: Paper")
                 print("Nice job, you win!")
                 player += 1
+        else:
+            print("Sorry. Your choice was not rock, paper, or scissors.")
         
         what_now = input("Would you like to play again? (y/n)?")
         
