@@ -55,7 +55,7 @@ def battle ():
     print("Computer's points: " + str(computer))
     if player < computer:
         print("Computer wins! Better luck, next time!")
-    elif len(points) > len(computer):
+    elif player > computer:
         print("Congratulations! You're the winner, overall!")
     else: 
         print("Draw! Better luck, next time!")
