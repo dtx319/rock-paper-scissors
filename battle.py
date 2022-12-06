@@ -33,16 +33,16 @@ def battle ():
                 print("Nice job, you win!")
                 player += 1
         else: 
-            print("Your choice: Rock")
+            print("Your choice: Scissors")
             if choice == 1:
-                print("Computer's choice: Rock")
+                print("Computer's choice: Scissors")
                 print("Draw!")
             elif choice == 2:
-                print("Computer's choice: Paper")
+                print("Computer's choice: Rock")
                 print("Too bad, you lose!")
                 computer += 1              
             else:
-                print("Computer's choice: Scissors")
+                print("Computer's choice: Paper")
                 print("Nice job, you win!")
                 player += 1
         
@@ -51,10 +51,10 @@ def battle ():
         if what_now.lower() == 'n' or what_now.lower() == 'quit' or what_now.lower() == "no":
             break
 
-    print("Your points: " + str(len(points)))
-    print("Computer's points: " + str(len(computer)))
-    if len(points) < len(computer):
-        print("Better luck, next time!")
+    print("Your points: " + str(player))
+    print("Computer's points: " + str(computer))
+    if player < computer:
+        print("Computer wins! Better luck, next time!")
     elif len(points) > len(computer):
         print("Congratulations! You're the winner, overall!")
     else: 
