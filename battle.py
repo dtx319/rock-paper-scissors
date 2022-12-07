@@ -1,6 +1,6 @@
 import random
 
-def battle ():
+def battle():
     player = 0
     computer = 0
     while True:
@@ -32,7 +32,7 @@ def battle ():
                 print("Computer's choice: Rock")
                 print("Nice job, you win!")
                 player += 1
-        elif choose.lower() == "rock": 
+        elif choose.lower() == "scissors": 
             print("Your choice: Scissors")
             if choice == 1:
                 print("Computer's choice: Scissors")
